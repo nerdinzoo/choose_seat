@@ -11,7 +11,7 @@
 .register-global-div{
 	width: 100%;
 	height: 100%;
-	margin-top: 22%;
+	margin-top: 25%;
 }
 
 .image{
@@ -78,6 +78,10 @@
 	margin-top: 4.1%;
 }
 
+.bigger-blank-div{
+	margin-top: 10%;
+}
+
 .login-btn-div{
 	margin-top: 4.1%;	
 	margin-bottom: 1.4%;
@@ -95,20 +99,16 @@
 }
 
 .foot-login-left{
-/*	display: inline-block;*/
-	position: absolute;
-	bottom: 2.5%;    
-	left:2.5%;
+	float: left;
 	cursor:pointer;
+	margin-left: 5px;
 
 }
 
 .foot-login-right{
-/*	display: inline-block;*/
-	position: absolute;
-	bottom: 2.5%;    
-	right:2.5%;
 	cursor:pointer;
+	float: right;
+	margin-right: 5px;
 }
 
 .alert-div{
@@ -131,7 +131,7 @@
 .btn-bind{
 	background: #27B39B;
 	width: 60%;
-	font-size: 20px;
+	font-size: 18px;
 	margin-left: 20%;
 	margin-right: 20%;	
 }
@@ -139,6 +139,7 @@
 .btn-reg{
 	background: #27B39B;
 	width: 60%;
+	font-size: 18px;
 	margin-left: 20%;
 	margin-right: 20%;
 	margin-top: 15%;	
@@ -164,3 +165,37 @@
 	font-size: 17px;
 	margin-top: 25px;
 }
+
+.topbar-div{
+	width: 80%;
+	height: 38px;
+	margin-right: 10%;
+	margin-left: 10%;
+	background-color: #FAF3CA;
+	font-size: 15px;
+    line-height:38px;   
+    overflow:hidden;   
+}
+
+.ashandwords-div{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+time{
+	color: #D5B57B;
+}
+
+.QRcode-div{
+	margin-top: 55px;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 60%;
+	width: 80%;
+	border: 1px solid  #CCC;
+	border-radius: 2px;
+	border-color: black;
+}
+

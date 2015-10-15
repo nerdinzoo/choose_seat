@@ -6,36 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
 <title>注册账号</title>
-<link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/bootstrap-theme.css" rel="stylesheet">
 <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 <link href="css/theme.css" rel="stylesheet">
-<script>
-	var count = 60;
-	var flag = 1;
-	function show(){
-		flag = 1;
-		if (flag = 1){
-			if(count > 50){
-				count--;
-				document.getElementById("check-button").value = count;
-				setTimeout("show()", 1000);
-			}else{
-				document.getElementById("check-button").value = "重新验证";
-				count = 60;
-				flag = 0;
-			}
-		}
-	}
-</script>
 </head>
 <body class="global-background">
 	<div class="register-global-div">
 		<div class="blank-div"></div>
 		<div>
 			<div class="label-reg">账号</div>
-			<input placeholder="请输入你的手机号注册" autofocus
+			<input id="phoneNum" placeholder="请输入你的手机号注册" autofocus
 				class="form-control form-common " type="text">
 		</div>
 		<div class="blank-div"></div>
@@ -44,7 +24,7 @@
 			<div class="input-group input-group-div">
 				<input type="text" class="form-control form-input form-check" placeholder="点击验证获取验证码">
 			      <span class="input-group-btn">
-			        <input class="btn btn-default" type="button" onclick="show()" id="check-button" value="验证">
+			        <input class="btn btn-default" type="button" onclick="phoneNumValidation()" id="check-button" value="验证">
 			      </span>
 			</div>		
 		</div>
@@ -58,7 +38,24 @@
 			<!-- <div class="label-reg">绑定</div> -->
 			<button class="btn btn-reg">注册</button>
 		</div>
-
+		<div class="modal fade" id="validationModal" tabindex="-1" role="dialog"
+			aria-labelledby="mySmallModalLabel">
+			<div class="alert-div">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-body modal-label ">
+							<br>
+							<p>输入有效的电话号码！</p>
+						</div>
+						<div>
+							<button type="button" data-dismiss="modal"
+								class="btn modal-btn ">确定</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 		<!-- <div class="foot_login"> -->
 	<script src="js/main.js"></script>
 	<script src="js/jquery-1.11.3.min.js"></script>
