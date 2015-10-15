@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<title>一键选座</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-theme.css" rel="stylesheet">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="css/theme.css" rel="stylesheet">
+</head>
+<body class="global-background">
+	<div class="global-div">
+		<div>
+			<img src="image/logo.png" class="image">
+		</div>
+		<div class="login-btn-div">
+			<button class="btn btn-bind" data-target="#myModal"
+				data-toggle="modal">一键选座</button>
+		</div>
+			<p class="unbound-label">解除绑定</p>
+		</div>
+		<div class="blank-div"></div>
+		<!-- <div class="foot_login"> -->
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+			aria-labelledby="mySmallModalLabel">
+			<div class="alert-div">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-body modal-label ">
+							<br>
+							<br>一键选座成功！<br>请返回服务号查看选座信息<br>不要忘记到馆确认哦~<br>
+							<br>
+						</div>
+						<div>
+							<button type="button" data-dismiss="modal"
+								class="btn modal-btn ">确定</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script src="js/main.js"></script>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/modal.js"></script>
+</body>
+</html>

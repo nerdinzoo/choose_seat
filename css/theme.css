@@ -1,0 +1,166 @@
+.global-background {
+	background-color: #F7F8F8;
+	margin: 0 auto;
+  }
+
+.global-div{
+	width: 100%;
+	height: 100%;
+}
+
+.register-global-div{
+	width: 100%;
+	height: 100%;
+	margin-top: 22%;
+}
+
+.image{
+	width: 100%;
+	height: 100%;
+	margin:auto;
+}
+
+.font-common{
+	font-family: fzzxhjt; 
+}
+
+.title-img-div{
+	margin-top: 22.4%;
+	margin-right: 12.5%;
+	margin-bottom: 9.4%;  
+	margin-left: 10.9%;
+}
+
+.icon-div{
+	margin-right: 40%;
+	margin-bottom: 2.5%;
+	margin-left: 40%;
+}
+
+.hand-div{
+	margin-right: 45%;
+	margin-left: 45%;
+	margin-bottom: 10%; 
+}
+
+.label-common{
+	color: #27B39B;
+	font-size: 20px; 
+	text-align: center;
+	margin-bottom: 22.4%;  
+}
+
+.input-group-div{
+	width: 70%;
+	height: 4.6%;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+.form-common{
+	background-color: #FEFEFE;
+	border: 1.5px solid #27B39B;
+	color: #27B39B;
+/*	font-size: 18pt;*/
+	width: 70%;
+	height: 4.6%;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+.form-input{
+	background-color: #FEFEFE;
+	border: 1.5px solid #27B39B;
+	color: #27B39B;
+}
+
+.blank-div{
+	margin-top: 4.1%;
+}
+
+.login-btn-div{
+	margin-top: 4.1%;	
+	margin-bottom: 1.4%;
+}
+
+.label-login{
+	color: #27B39B;
+	font-size: 10px; 
+	text-align: center;
+}
+
+.foot-login{
+	width: 100%;
+	height: 100%;
+}
+
+.foot-login-left{
+/*	display: inline-block;*/
+	position: absolute;
+	bottom: 2.5%;    
+	left:2.5%;
+	cursor:pointer;
+
+}
+
+.foot-login-right{
+/*	display: inline-block;*/
+	position: absolute;
+	bottom: 2.5%;    
+	right:2.5%;
+	cursor:pointer;
+}
+
+.alert-div{
+	margin-top: 40%;
+}
+
+.modal-btn{
+	width: 100%;
+	color: #27B39B;
+	font-size: 18px;
+}
+
+.modal-label{
+	text-align: center;
+	background-color: #EAE9E5;
+	color: #27B39B;
+	font-size: 18px;
+}
+
+.btn-bind{
+	background: #27B39B;
+	width: 60%;
+	font-size: 20px;
+	margin-left: 20%;
+	margin-right: 20%;	
+}
+
+.btn-reg{
+	background: #27B39B;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 15%;	
+}
+
+.label-reg{
+	margin-left: 20%;
+}
+
+.btn-check{
+	display: inline-block;
+	background: #27B39B;
+	position: absolute;
+	right:5%;	
+}
+
+.form-check{
+	display: inline-block;		
+}
+
+.unbound-label{
+	text-align: center;
+	font-size: 17px;
+	margin-top: 25px;
+}
